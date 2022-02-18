@@ -1,0 +1,24 @@
+{
+  "name": "google-authenticator-typescript-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "secret": "node dist/secret.js",
+    "login": "node dist/login.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "phattharaphon.sriwichai@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.19.12",
+    "tslint": "^5.18.0",
+    "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "args": "^5.0.1",
+    "crypto": "^1.0.1",
+    "hi-base32": "^0.5.1"
+  }
+}
